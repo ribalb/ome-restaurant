@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مطعم اومي O.ME Restaurant — الرياض</title>
+<meta name="description" content="مطعم اومي في حي الورود، الرياض — مطعم ولاونج مفتوح ٢٤ ساعة. O.ME Restaurant & Lounge in Al Wurud, Riyadh — open 24 hours.">
+<meta name="theme-color" content="#0f1412">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600&family=El+Messiri:wght@400;500;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="#top" class="brand" aria-label="O.ME">O<span>.</span>ME</a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about" data-en="About">عن المكان</a>
+    <a href="#experience" data-en="Experience">التجربة</a>
+    <a href="#menu" data-en="Menu">المنيو</a>
+    <a href="#reviews" data-en="Reviews">الآراء</a>
+    <a href="#booking" data-en="Booking">الحجز</a>
+    <a href="#visit" data-en="Visit">زورونا</a>
+  </nav>
+  <div class="nav-actions">
+    <button class="lang" id="langBtn" type="button" aria-label="Switch language">EN</button>
+    <a class="btn btn-gold btn-sm" href="#booking" data-en="Book a table">احجز طاولة</a>
+    <button class="burger" id="burger" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="hero-slides" aria-hidden="true">
+    <div style="background-image:url('images/interior.jpg')"></div>
+    <div style="background-image:url('images/coffee-cheers.jpg')"></div>
+    <div style="background-image:url('images/dishes.jpg')"></div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <svg viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#c9a468" stop-opacity=".55"/>
+          <stop offset="1" stop-color="#c9a468" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <g fill="none" stroke="url(#g)" stroke-width="1">
+        <path d="M100 800V330a200 200 0 0 1 400 0v470"/>
+        <path d="M140 800V335a160 160 0 0 1 320 0v465"/>
+        <path d="M180 800V340a120 120 0 0 1 240 0v460"/>
+        <path d="M220 800V345a80 80 0 0 1 160 0v455"/>
+      </g>
+      <circle cx="300" cy="330" r="5" fill="#c9a468"/>
+    </svg>
+  </div>
+  <div class="hero-inner">
+    <p class="eyebrow" data-en="Al Wurud · Riyadh">حي الورود · الرياض</p>
+    <h1 class="hero-title" aria-label="مطعم اومي O.ME Restaurant">O<span>.</span>ME</h1>
+    <p class="hero-name"><span lang="ar">مطعم اومي</span><i></i><span lang="en" dir="ltr">O.ME Restaurant</span></p>
+    <p class="hero-sub" data-en="Restaurant & lounge. Fine food, great coffee and shisha — at any hour.">مطعم ولاونج. أكل لذيذ، قهوة مميزة وشيشة — في أي ساعة.</p>
+    <div class="hero-meta">
+      <span class="pill"><span class="dot"></span><span data-en="Open 24 hours">مفتوح ٢٤ ساعة</span></span>
+      <span class="pill"><span class="star">★</span> 4.7 <em data-en="· 813 Google reviews">· ٨١٣ تقييم على قوقل</em></span>
+    </div>
+    <div class="hero-cta">
+      <a class="btn btn-gold" href="https://app.qlub.io/qr/sa/OME_DM/Menu/_/_/d39112eaf7?lang=ar" data-menu-link target="_blank" rel="noopener" data-en="View the menu">تصفح المنيو</a>
+      <a class="btn btn-ghost" href="#booking" data-en="Book a table">احجز طاولة</a>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=O.ME+Restaurant+Al+Wurud+Riyadh" target="_blank" rel="noopener" data-en="Get directions">الاتجاهات</a>
+    </div>
+  </div>
+  <a class="scroll-hint" href="#about" aria-label="Scroll"><span></span></a>
+</section>
+
+<section class="strip" aria-label="Services">
+  <div><b data-en="Dine-in">محلي</b><span data-en="Relaxed indoor seating">جلسات داخلية رايقة</span></div>
+  <div><b data-en="Takeaway">سفري</b><span data-en="Ready when you are">جاهز وقت ما تبي</span></div>
+  <div><b data-en="Delivery">توصيل</b><span data-en="O.ME at your door">اومي لين باب بيتك</span></div>
+  <div><b data-en="24 / 7">٢٤ / ٧</b><span data-en="We never close">ما نقفل أبداً</span></div>
+</section>
+
+<section class="section about" id="about">
+  <div class="reveal">
+    <p class="eyebrow" data-en="About O.ME">عن اومي</p>
+    <h2 data-en="A place to slow down, day or night.">مكان تروق فيه، ليل أو نهار.</h2>
+    <div class="about-photo"><img src="images/interior.jpg" alt="" loading="lazy"></div>
+  </div>
+  <div class="about-body reveal">
+    <p data-en="In the heart of Al Wurud, O.ME brings together a warm kitchen, carefully made coffee and a calm lounge atmosphere. Come for breakfast at dawn, a long dinner with friends, or a quiet shisha in the middle of the night — our doors are always open.">في قلب حي الورود، يجمع اومي بين مطبخ دافئ وقهوة محضّرة بعناية وأجواء لاونج هادئة. تعال للفطور مع الفجر، أو لعشاء طويل مع الأصحاب، أو لشيشة هادئة في منتصف الليل — أبوابنا مفتوحة دائماً.</p>
+    <p data-en="Our guests come back for the attentive service, the spotless space and the feeling of being looked after. Celebrating something? Tell us — we love a birthday.">ضيوفنا يرجعون لنا عشان الخدمة الراقية، ونظافة المكان، وإحساس إنك في أيدٍ أمينة. عندك مناسبة؟ بلّغنا — نحب نحتفل معك.</p>
+    <div class="stats">
+      <div><strong>4.7</strong><span data-en="Google rating">تقييم قوقل</span></div>
+      <div><strong data-en="813+">+٨١٣</strong><span data-en="Guest reviews">رأي من ضيوفنا</span></div>
+      <div><strong data-en="24h">٢٤ س</strong><span data-en="Every day">كل يوم</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section experience" id="experience">
+  <div class="section-head reveal">
+    <p class="eyebrow" data-en="The experience">التجربة</p>
+    <h2 data-en="What our guests talk about">وش يقولون ضيوفنا عنّا</h2>
+  </div>
+  <div class="cards">
+    <article class="card reveal">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6c-3 4 3 6 0 10M18 44h12M24 44V30m-6-6h12l-2 6h-8zM21 24c-1-3 0-5 3-5s4 2 3 5"/></svg>
+      <h3 data-en="Shisha">الشيشة</h3>
+      <p data-en="The most-mentioned reason guests love O.ME — carefully prepared and served by a dedicated team.">أكثر شي يذكره ضيوفنا — تتحضّر بعناية ويقدمها فريق متخصص.</p>
+    </article>
+    <article class="card reveal">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 34h32M12 34a12 12 0 0 1 24 0M24 22v-4m-3 0h6M6 40h36"/></svg>
+      <h3 data-en="Classy service">خدمة راقية</h3>
+      <p data-en="A team that remembers your order and treats every table like their own guests.">فريق يتذكر طلبك ويعامل كل طاولة كأنهم ضيوفه.</p>
+    </article>
+    <article class="card reveal">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 18h22v10a10 10 0 0 1-10 10h-2a10 10 0 0 1-10-10zM32 21h4a4 4 0 0 1 0 8h-4M8 42h26M17 6c-2 3 2 4 0 7m8-7c-2 3 2 4 0 7"/></svg>
+      <h3 data-en="Coffee & calm">قهوة وروقان</h3>
+      <p data-en="A cozy, relaxing atmosphere — the kind of place regulars return to every week.">أجواء دافئة ومريحة — المكان اللي يرجعون له زبائنه كل أسبوع.</p>
+    </article>
+    <article class="card reveal">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6l3 9 9 3-9 3-3 9-3-9-9-3 9-3zM37 30l1.500 4 4 1.500-4 1.500-1.500 4-1.500-4-4-1.500 4-1.500z"/></svg>
+      <h3 data-en="Spotless space">نظافة المكان</h3>
+      <p data-en="Clean, well-kept and comfortable — from the first table to the last.">نظيف ومرتب ومريح — من أول طاولة لآخر طاولة.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section menu" id="menu">
+  <div class="section-head reveal">
+    <p class="eyebrow" data-en="From our menu">من المنيو</p>
+    <h2 data-en="Guest favourites">المفضلة عند ضيوفنا</h2>
+  </div>
+  <ul class="dishes">
+    <li class="reveal"><span class="num">01</span><div><h3 data-en="Lamb chops">ريش غنم</h3><p data-en="Grilled over charcoal, served hot.">مشوية على الفحم وتتقدم حارة.</p></div></li>
+    <li class="reveal"><span class="num">02</span><div><h3 data-en="Kibbeh bil laban">كبة بلبن</h3><p data-en="Kibbeh in warm, velvety yogurt sauce.">كبة في صلصة لبن دافئة وناعمة.</p></div></li>
+    <li class="reveal"><span class="num">03</span><div><h3 data-en="Fruit platter">طبق فواكه</h3><p data-en="Fresh seasonal fruit, made to share.">فواكه موسمية طازجة للمشاركة.</p></div></li>
+    <li class="reveal"><span class="num">04</span><div><h3 data-en="Specialty coffee">القهوة</h3><p data-en="Freshly made, any hour of the day.">تتحضّر طازجة في أي ساعة.</p></div></li>
+    <li class="reveal"><span class="num">05</span><div><h3 data-en="Shisha">الشيشة</h3><p data-en="A wide choice of flavours.">تشكيلة واسعة من النكهات.</p></div></li>
+  </ul>
+  <div class="menu-cta reveal">
+    <p data-en="See the full menu with today's prices.">شوف المنيو كامل مع الأسعار المحدّثة.</p>
+    <a class="btn btn-gold" href="https://app.qlub.io/qr/sa/OME_DM/Menu/_/_/d39112eaf7?lang=ar" data-menu-link target="_blank" rel="noopener" data-en="Open full menu">افتح المنيو الكامل</a>
+  </div>
+</section>
+
+<section class="gallery" id="gallery" aria-label="Gallery">
+  <div class="marquee">
+    <div class="track">
+      <figure><img src="images/interior.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="images/coffee.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="images/dishes.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="images/fruit.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="images/coffee-cheers.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="images/interior.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="images/coffee.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="images/dishes.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="images/fruit.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="images/coffee-cheers.jpg" alt="" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section reviews" id="reviews">
+  <div class="section-head reveal">
+    <p class="eyebrow" data-en="Reviews">الآراء</p>
+    <h2><span class="star">★</span> 4.7 <small data-en="from 813 reviews on Google">من ٨١٣ تقييم على قوقل</small></h2>
+  </div>
+  <div class="quotes">
+    <figure class="quote reveal">
+      <div class="stars" aria-label="5/5">★★★★★</div>
+      <blockquote data-en="“I visit every week, and I always enjoy it. The coffee is very good, and everything I've tried has been fresh and delicious. The atmosphere is cozy and relaxing.”">«أزور المكان كل أسبوع وأستمتع دائماً. القهوة ممتازة وكل ما جربته كان طازجاً ولذيذاً، والأجواء دافئة ومريحة.»</blockquote>
+      <figcaption>Zaareer A. · <span data-en="Local Guide">مرشد محلي</span></figcaption>
+    </figure>
+    <figure class="quote reveal">
+      <div class="stars" aria-label="5/5">★★★★★</div>
+      <blockquote data-en="“Honestly, the service is wonderful and the food and shisha are amazing — thanks to a great team. All respect to this place.”">«صراحة الخدمة رائعة والأكل والشيشة روعة، وتحديداً من أشخاص رائعين. كل الاحترام للمكان هذا… اومي.»</blockquote>
+      <figcaption>Maher D.</figcaption>
+    </figure>
+    <figure class="quote reveal">
+      <div class="stars" aria-label="5/5">★★★★★</div>
+      <blockquote data-en="“An unforgettable birthday celebration!”">«احتفال عيد ميلاد لا يُنسى!»</blockquote>
+      <figcaption>Ahmed</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section booking" id="booking">
+  <div class="reveal">
+    <p class="eyebrow" data-en="Reservations">الحجوزات</p>
+    <h2 data-en="Book your table on WhatsApp">احجز طاولتك عبر واتساب</h2>
+    <p class="booking-lead" data-en="Fill in your details and we'll open WhatsApp with your booking request ready to send. Our team will confirm your table there.">عبّي بياناتك ونفتح لك واتساب وطلب الحجز جاهز للإرسال. فريقنا يأكد لك الطاولة هناك.</p>
+    <a class="wa-direct" href="https://wa.me/966555225397" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.600 15.100L2 22l5-1.300A10 10 0 1 0 12 2zm0 18.200a8.200 8.200 0 0 1-4.200-1.150l-.300-.180-3 .790.800-2.900-.200-.300A8.200 8.200 0 1 1 12 20.200zm4.500-6.100c-.250-.120-1.460-.720-1.690-.800s-.390-.120-.560.120-.640.800-.780.970-.290.180-.540.060a6.700 6.700 0 0 1-2-1.220 7.400 7.400 0 0 1-1.370-1.700c-.140-.250 0-.380.110-.500s.250-.290.370-.430a1.700 1.700 0 0 0 .250-.410.450.450 0 0 0 0-.430c-.060-.120-.560-1.340-.760-1.840s-.400-.420-.560-.430h-.470a.900.900 0 0 0-.660.310 2.800 2.800 0 0 0-.860 2.050 4.800 4.800 0 0 0 1 2.540 11 11 0 0 0 4.200 3.700c.590.250 1.050.400 1.400.520a3.400 3.400 0 0 0 1.550.100 2.500 2.500 0 0 0 1.660-1.170 2 2 0 0 0 .140-1.170c-.060-.100-.220-.160-.470-.280z"/></svg>
+      <span data-en="Or chat with us directly">أو راسلنا مباشرة</span>
+    </a>
+  </div>
+  <form class="booking-form reveal" id="bookingForm" novalidate>
+    <label class="full"><span data-en="Name">الاسم</span><input type="text" name="name" autocomplete="name" required></label>
+    <label><span data-en="Date">التاريخ</span><input type="date" name="date" required></label>
+    <label><span data-en="Time">الوقت</span><input type="time" name="time" required></label>
+    <label class="full"><span data-en="Guests">عدد الأشخاص</span>
+      <select name="guests" required>
+        <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option>
+        <option>6</option><option>7</option><option>8</option><option>9</option><option>10+</option>
+      </select>
+    </label>
+    <label class="full"><span data-en="Notes (optional)">ملاحظات (اختياري)</span><textarea name="notes" rows="3"></textarea></label>
+    <p class="form-error full" id="formError" role="alert" hidden data-en="Please enter your name, date and time.">فضلاً اكتب الاسم والتاريخ والوقت.</p>
+    <button class="btn btn-wa full" type="submit" data-en="Send booking on WhatsApp">أرسل الحجز عبر واتساب</button>
+  </form>
+</section>
+
+<section class="section visit" id="visit">
+  <div class="visit-info reveal">
+    <p class="eyebrow" data-en="Visit us">زورونا</p>
+    <h2 data-en="We're open. Always.">مفتوحين. دايماً.</h2>
+    <dl>
+      <dt data-en="Address">العنوان</dt>
+      <dd data-en="Ash Shaikh Abdullah Al Anqari St, Al Wurud, Riyadh 12254">شارع الشيخ عبدالله العنقري، حي الورود، الرياض 12254</dd>
+      <dt data-en="Hours">ساعات العمل</dt>
+      <dd data-en="Open 24 hours, every day">مفتوح ٢٤ ساعة، كل أيام الأسبوع</dd>
+      <dt data-en="Phone">الهاتف</dt>
+      <dd><a href="tel:+966555225397" dir="ltr">055 522 5397</a></dd>
+    </dl>
+    <div class="hero-cta">
+      <a class="btn btn-gold" href="https://www.google.com/maps/search/?api=1&query=O.ME+Restaurant+Al+Wurud+Riyadh" target="_blank" rel="noopener" data-en="Open in Google Maps">افتح في خرائط قوقل</a>
+      <a class="btn btn-ghost" href="tel:+966555225397" data-en="Call us">اتصل بنا</a>
+    </div>
+  </div>
+  <div class="map reveal">
+    <iframe title="O.ME Restaurant map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps?q=O.ME+Restaurant+Al+Wurud+Riyadh&output=embed"></iframe>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <a href="#top" class="brand">O<span>.</span>ME</a>
+  <p class="hero-name"><span lang="ar">مطعم اومي</span><i></i><span lang="en" dir="ltr">O.ME Restaurant</span></p>
+  <p data-en="Restaurant & Lounge · Al Wurud, Riyadh">مطعم ولاونج · حي الورود، الرياض</p>
+  <div class="footer-links">
+    <a href="https://www.instagram.com/" id="instagram" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://app.qlub.io/qr/sa/OME_DM/Menu/_/_/d39112eaf7?lang=ar" data-menu-link target="_blank" rel="noopener" data-en="Menu">المنيو</a>
+    <a href="tel:+966555225397" dir="ltr">055 522 5397</a>
+  </div>
+  <small>© <span id="year"></span> مطعم اومي O.ME Restaurant</small>
+</footer>
+
+<div class="dock" aria-label="Quick actions">
+  <a href="#booking" data-en="Book">احجز</a>
+  <a class="primary" href="https://app.qlub.io/qr/sa/OME_DM/Menu/_/_/d39112eaf7?lang=ar" data-menu-link target="_blank" rel="noopener" data-en="Menu">المنيو</a>
+  <a href="https://www.google.com/maps/search/?api=1&query=O.ME+Restaurant+Al+Wurud+Riyadh" target="_blank" rel="noopener" data-en="Directions">الاتجاهات</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
